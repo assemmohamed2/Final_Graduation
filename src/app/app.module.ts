@@ -7,6 +7,7 @@ import { LoginComponent } from './Authantication/login/login.component';
 import { HeaderComponent } from './Components/dashboard/header/header.component';
 import { CarncyPipe } from './Pipes/carncy.pipe';
 import { DatePipe } from './Pipes/date.pipe';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,8 +18,12 @@ import { DatePipe } from './Pipes/date.pipe';
     DatePipe
   ],
   imports: [
+
+
+    
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     
   ],
   providers: [],
