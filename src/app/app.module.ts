@@ -7,6 +7,7 @@ import { LoginComponent } from './Authantication/login/login.component';
 import { HeaderComponent } from './Components/dashboard/header/header.component';
 import { CarncyPipe } from './Pipes/carncy.pipe';
 import { DatePipe } from './Pipes/date.pipe';
+import { MovieDetailsComponent } from './Components/movie-details/movie-details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DatePipe } from './Pipes/date.pipe';
     LoginComponent,
     HeaderComponent,
     CarncyPipe,
-    DatePipe
+    DatePipe,
+    MovieDetailsComponent
   ],
   imports: [
     BrowserModule,
