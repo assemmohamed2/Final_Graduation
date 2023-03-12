@@ -7,7 +7,9 @@ import { LoginComponent } from './Authantication/login/login.component';
 import { HeaderComponent } from './Components/dashboard/header/header.component';
 import { CarncyPipe } from './Pipes/carncy.pipe';
 import { DatePipe } from './Pipes/date.pipe';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { AddmovisComponent } from './Components/addmovis/addmovis.component'
+import { FormsModule, NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import {HttpClientModule} from '@angular/common/http'
     LoginComponent,
     HeaderComponent,
     CarncyPipe,
-    DatePipe
+    DatePipe,
+    AddmovisComponent
   ],
   imports: [
 
@@ -24,6 +27,7 @@ import {HttpClientModule} from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
     
   ],
   providers: [],
