@@ -7,7 +7,7 @@ import { LoginComponent } from './Authantication/login/login.component';
 import { HeaderComponent } from './Components/dashboard/header/header.component';
 import { CarncyPipe } from './Pipes/carncy.pipe';
 import { DatePipe } from './Pipes/date.pipe';
-import { MovieratingComponent } from './movierating/movierating.component';
+import { MovieratingComponent } from './Components/movierating/movierating.component';
 
 @NgModule({
   declarations: [
