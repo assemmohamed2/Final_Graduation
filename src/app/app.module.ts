@@ -8,6 +8,7 @@ import { HeaderComponent } from './Components/dashboard/header/header.component'
 import { CarncyPipe } from './Pipes/carncy.pipe';
 import { DatePipe } from './Pipes/date.pipe';
 import { MovieratingComponent } from './Components/movierating/movierating.component';
+import { MovieDetailsComponent } from './Components/movie-details/movie-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MovieratingComponent } from './Components/movierating/movierating.compo
     HeaderComponent,
     CarncyPipe,
     DatePipe,
-    MovieratingComponent
+    MovieratingComponent,
+    MovieDetailsComponent
   ],
   imports: [
     BrowserModule,
